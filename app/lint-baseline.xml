@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.0)" variant="fatal" version="8.2.0">
+
+    <issue
+        id="Instantiatable"
+        message="`SpaceItemDecoration` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.SpaceItemDecoration&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="16"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="This class should provide a default constructor (a public constructor with no arguments) (`com.example.i_burger.OrdersRecyclerViewAdapter`)"
+        errorLine1="            android:name=&quot;.OrdersRecyclerViewAdapter&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="19"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`OrdersRecyclerViewAdapter` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.OrdersRecyclerViewAdapter&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="19"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="This class should provide a default constructor (a public constructor with no arguments) (`com.example.i_burger.OrderItemDecoration`)"
+        errorLine1="            android:name=&quot;.OrderItemDecoration&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="22"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`OrderItemDecoration` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.OrderItemDecoration&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="22"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`ForgetPasswordActivity` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.ForgetPasswordActivity&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="25"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="This class should provide a default constructor (a public constructor with no arguments) (`com.example.i_burger.ItemsRecyclerViewAdapter`)"
+        errorLine1="            android:name=&quot;.ItemsRecyclerViewAdapter&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="34"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`ItemsRecyclerViewAdapter` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.ItemsRecyclerViewAdapter&quot;"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="34"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="This class should provide a default constructor (a public constructor with no arguments) (`com.example.i_burger.OrderItems`)"
+        errorLine1="            android:name=&quot;.OrderItems&quot;"
+        errorLine2="                          ~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="37"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`OrderItems` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.OrderItems&quot;"
+        errorLine2="                          ~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="37"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="This class should provide a default constructor (a public constructor with no arguments) (`com.example.i_burger.Items`)"
+        errorLine1="            android:name=&quot;.Items&quot;"
+        errorLine2="                          ~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="40"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="Instantiatable"
+        message="`Items` must extend android.app.Activity"
+        errorLine1="            android:name=&quot;.Items&quot;"
+        errorLine2="                          ~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="40"
+            column="27"/>
+    </issue>
+
+</issues>

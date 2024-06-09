@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity"
+    android:id="@+id/home_drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="right">
+    
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/home_nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:menu="@menu/menu"
+    android:layout_gravity="right"
+    android:background="@drawable/background3"
+    app:itemHorizontalPadding="60dp"
+    android:paddingTop="110dp"
+    android:layoutDirection="rtl"
+    app:itemTextColor="@color/black"
+    app:itemTextAppearance="@style/NavigationItemTextStyle"
+    >
+
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/background2">
+     <ImageButton
+         android:id="@+id/menu_button"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:background="@drawable/menu_icon"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.97"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintVertical_bias="0.03"
+         />
+
+
+
+     <ImageView
+         android:layout_width="250dp"
+         android:layout_height="220dp"
+         android:id="@+id/main_imageview"
+         android:src="@drawable/iburger_logo2"
+         app:layout_constraintBottom_toTopOf="@id/linear_layout"
+         app:layout_constraintHorizontal_bias="0.422"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintVertical_bias="0.1"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/linear_layout"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:orientation="horizontal"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <ImageButton
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:id="@+id/burger_button"
+                 android:onClick="onClickedBurgerBtn"
+                 android:layout_marginRight="50dp"
+                 android:background="@drawable/burger"
+                 android:layout_marginEnd="50dp"/>
+             
+             <TextView
+                 android:layout_width="100dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:background="#00000000"
+                 android:text="BURGER"
+                 android:textStyle="bold"
+                 android:layout_marginStart="5dp"
+                 android:gravity="center_horizontal"
+                 android:textSize="25sp"
+                 android:textColor="@color/black"
+                 android:textAlignment="center"/>
+
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <ImageButton
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:id="@+id/snaks_button"
+                 android:onClick="onClickedBurgerBtn"
+                 android:layout_marginLeft="50dp"
+                 android:background="@drawable/snaks"
+                 android:layout_marginStart="50dp"/>
+
+             <TextView
+                 android:layout_width="100dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="55dp"
+                 android:background="#00000000"
+                 android:text="SNAKS"
+                 android:textStyle="bold"
+                 android:textSize="25sp"
+                 android:textColor="@color/black"
+                 android:textAlignment="center"
+                 android:layout_marginStart="55dp"
+                 android:gravity="center_horizontal"/>
+
+
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="ORDER YOUR FAVOURIT FOOD NOW"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linear_layout"
+    app:layout_constraintVertical_bias=".97"/>
+
+
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

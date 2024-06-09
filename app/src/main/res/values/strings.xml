@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">I_Burger</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="forget_password">FORGET PASSWORD ?</string>
+    <string name="do_nt_have_account_sign_up">DO\'NT HAVE ACCOUNT ? SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="location">LOCATION</string>
+    <string name="re_password">RE-PASSWORD</string>
+    <string name="signup">SIGNUP</string>
+    <string name="profile">PROFILE</string>
+    <string name="save">SAVE</string>
+    <string name="burger">BURGER</string>
+    <string name="snacks">SNACKS</string>
+    <string name="order_your_favourit_food_now">ORDER YOUR FAVOURIT FOOD NOW</string>
+    <string name="orders">ORDERS</string>
+    <string name="logout">LOGOUT</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="order_now">ORDER NOW !</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="order_conformed">ORDER CONFORMED</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="amman_abdoon">AMMAN - ABDOON</string>
+    <string name="_0795347341">0795347341</string>
+</resources>
